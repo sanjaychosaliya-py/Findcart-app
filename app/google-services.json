@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "16322131747",
+    "project_id": "findcart-e3571",
+    "storage_bucket": "findcart-e3571.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16322131747:android:7afb5bbfd972c2498e3e96",
+        "android_client_info": {
+          "package_name": "com.example.findcartx1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16322131747-q9or91kile846f3fvgh9k9c5u2237kta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findcartx1",
+            "certificate_hash": "d330dcb444f3bac40dd5b1f6323f9bbe78e08e67"
+          }
+        },
+        {
+          "client_id": "16322131747-vvlclhacmfd73bq5s1dh9jri0d2vc37e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDDIKSeWcrFjnDYdJiTfUuFcH8QI3xVN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16322131747-vvlclhacmfd73bq5s1dh9jri0d2vc37e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

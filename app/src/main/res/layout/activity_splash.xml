@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- ═══ GREEN TOP SECTION (68% height, rounded bottom) ═══ -->
+    <FrameLayout
+        android:id="@+id/topSection"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:background="@drawable/splash_top_bg">
+
+        <!-- ── ROW 1 ── -->
+        <LinearLayout
+            android:id="@+id/card1"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🛒" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="CART" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card2"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🥛" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="DAIRY" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card3"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🍟" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="SNACKS" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <!-- ── ROW 2 ── -->
+        <LinearLayout
+            android:id="@+id/card4"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="112dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🌾" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="GRAINS" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card5"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="186dp"
+            android:layout_marginTop="106dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="👶" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="BABY" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <!-- ── ROW 3 ── -->
+        <LinearLayout
+            android:id="@+id/card6"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🍳" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="KITCHEN" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card7"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="194dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🥤" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="DRINKS" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card8"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="234dp"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="⚡" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="ELEC." android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <!-- ── ROW 4 ── -->
+        <LinearLayout
+            android:id="@+id/card9"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="290dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🧹" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="CLEAN" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card10"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="186dp"
+            android:layout_marginTop="284dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/splash_card_bg"
+            android:visibility="invisible">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="💊" android:textSize="26sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="HEALTH" android:textSize="8sp" android:textColor="#B2DFDB"
+                android:textStyle="bold" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- ═══ BOTTOM WHITE SECTION ═══ -->
+    <LinearLayout
+        android:id="@+id/bottomSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="48dp"
+        android:paddingTop="16dp"
+        android:alpha="0">
+
+        <!-- Logo box with ripple -->
+        <FrameLayout
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="14dp">
+
+            <!-- Ripple ring 1 -->
+            <View
+                android:id="@+id/ripple1"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:background="@drawable/splash_ripple_ring"
+                android:alpha="0"/>
+
+            <!-- Ripple ring 2 -->
+            <View
+                android:id="@+id/ripple2"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:background="@drawable/splash_ripple_ring"
+                android:alpha="0"/>
+
+            <!-- Logo rounded square -->
+            <FrameLayout
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:background="@drawable/splash_logo_box">
+
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_find_cart"
+                    android:scaleType="centerCrop"/>
+            </FrameLayout>
+        </FrameLayout>
+
+        <!-- App name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FindCartx1"
+            android:textColor="#1B5E20"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:letterSpacing="-0.02"/>
+
+        <!-- Tagline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Any Item  ·  Skip the Search"
+            android:textColor="#9E9E9E"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- Loading dots -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <View android:id="@+id/dot1"
+                android:layout_width="6dp" android:layout_height="6dp"
+                android:background="@drawable/splash_dot"
+                android:layout_marginEnd="5dp"/>
+            <View android:id="@+id/dot2"
+                android:layout_width="6dp" android:layout_height="6dp"
+                android:background="@drawable/splash_dot"
+                android:layout_marginEnd="5dp"/>
+            <View android:id="@+id/dot3"
+                android:layout_width="6dp" android:layout_height="6dp"
+                android:background="@drawable/splash_dot"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
