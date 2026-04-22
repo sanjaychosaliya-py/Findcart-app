@@ -23,7 +23,22 @@ which rack contains which product — instantly.
 - Java / Kotlin
 
 ## Screenshots
-[Add screenshots here]
+
+<p>
+  <img src="home_screen.jpeg" width="250"/>
+  <img src="user_proflie.jpeg" width="250"/>
+  <img src="ground_floor.jpeg" width="250"/>
+  <img src="1st_floor.jpeg" width="250"/>
+  <img src="help_section.jpeg" width="250"/>
+  <img src="items_in_cart.jpeg" width="250"/>
+  <img src="cart_items.jpeg" width="250"/>
+  <img src="select_from_product_list.jpeg" width="250"/>
+  <img src="billing.jpeg" width="250"/>
+  <img src="billing_options.jpeg" width="250"/>
+  <img src="offers.jpeg" width="250"/>
+  <img src="purchase_history.jpeg" width="250"/>
+</p>
+
 
 
 ## Status
